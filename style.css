@@ -1,2 +1,100 @@
-body{ background: blue
+* { margin:0;
+padding: 0; 
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+body{ 
+    background: #f9f9f9;
+    color: #333;
+}
+header {
+    background: white;
+    padding: 20px 50px;
+
+}
+.navbar {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.nav-links p{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space space-between;  
+}
+.logo {
+    float: left;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: pink;
+    padding: 80px 50px;
+    text-align: center;
+}
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero-text h1 span {
+    color: #111;
+}
+.hero-text p {
+    color: darkcyan;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+.hero-text .btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero-text .btn:hover {
+    background: #005f5f;
+}
+.hero-image img {
+    width: 400px;
+}
+.projects {
+    padding : 60px 50px;
+    text-align: center;
+    background-color: #grey;
+}
+.projects h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-style: bold;
+}
+.projects p {
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 18px;
+}
+#contact {
+    background-color: lightyellow;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#contact h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#contact p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 15px;
 }
