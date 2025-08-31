@@ -17,13 +17,14 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    
+    background: whitesmoke;
+    padding: 10px 50px
 }
 .nav-links p{
     color: white;
     text-align: center;
     display: flex;
-    justify-content: space space-between;  
+    justify-content: space-between;  
 }
 .logo {
     float: left;
@@ -32,7 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: pink;
+    background: beige;
     padding: 80px 50px;
     text-align: center;
 }
@@ -69,8 +70,8 @@ header {
 .projects {
     padding : 60px 50px;
     text-align: center;
-    background-color: #grey;
-}
+    background-color: # grey;
+ }
 .projects h2 {
     margin-bottom: 20px;
     font-size: 28px;
