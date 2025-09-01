@@ -10,15 +10,16 @@ body{
 header {
     background: white;
     padding: 20px 50px;
-
+    justify-content: space-between;
+    text-decoration: none;
 }
 .navbar {
     display: block;
     justify-content: space-between;
-    align-items: center;
+    background: lightblue;
+    padding: 39px 50px;
     text-align: center;
-    background: whitesmoke;
-    padding: 10px 50px
+    text-spacing-trim: 5px;
 }
 .nav-links p{
     color: white;
